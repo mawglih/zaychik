@@ -346,6 +346,7 @@ body {
     top: 57%;
     right: 13%;
     border-top-color: darkgreen;
+    transform: translateX(-30%);
     animation: 5s poedalka infinite;
 }
 
@@ -613,6 +614,7 @@ body {
 @keyframes poedalka {
     0% {
         visibility: visible;
+        
     }
     10% {
         visibility: hidden;
